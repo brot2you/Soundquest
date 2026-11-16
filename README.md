@@ -1,7 +1,11 @@
-# SOUNDQUEST — The Living Sound World (V2 prototype)
+# SOUNDQUEST V4 — Sonora City Deluxe
 
-Open `index.html` in a modern browser, or publish this folder at the root of a GitHub Pages repository. HTTPS is required for microphone access on deployed sites.
+Une refonte visuelle du prototype V3 : nouvelle carte panoramique 3D, cinq hotspots interactifs, interface immersive et mascotte BIP remaniée. Les défis phonologiques, le comparateur UK/US, le studio vocal et les sauvegardes JSON de V3 sont conservés.
 
-This is a playable, redesigned **vertical slice**, not the complete 60-mission product. Five illustrated locations each have an interactive listening task, feedback, an optional voice recorder, progression, and local JSON export/import. Speech synthesis depends on voices installed on the user's device and is not a substitute for validated accent recordings. Voice recording is for self-comparison, not automatic pronunciation scoring.
+## Installation
 
-Data stays in localStorage; audio recordings are temporary and not persisted. No external assets, dependencies, account, or backend required.
+Déposer `index.html` et `sonora-city.webp` ensemble à la racine d’un dépôt GitHub Pages. Ouvrir `index.html` pour tester les défis hors microphone. Le microphone exige HTTPS ou localhost.
+
+## Limites
+
+Le décor est une illustration 2D à rendu 3D, pas un moteur 3D temps réel. Les points d’intérêt sont des zones cliquables HTML. Les voix UK/US utilisent la synthèse vocale du navigateur, dont l’authenticité et la disponibilité varient. Les contenus phonologiques restent ceux de la V3, sans validation phonémique automatisée.
